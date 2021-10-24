@@ -1,0 +1,46 @@
+h1 {
+    color: brown;
+}
+
+p.texto{
+    color: burlywood;
+}
+
+p.especial{
+    color:chocolate;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}
+
+.color{
+    /* border: 5px black solid; */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 1cm;
+}
+
+#fondo{
+    /* border: 5px black solid; */
+    /*opacity: 0.3;*/
+    height: 200px;    
+    background: #f00 url(../img/cafe.jpeg) repeat-y center bottom / 100px 100px;
+
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+}
